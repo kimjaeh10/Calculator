@@ -9,6 +9,10 @@
     height: 100vh;
 }
 
+.title {
+    margin-bottom: 16px;
+}
+
 .calculator {
     max-width: 360px;
     margin: auto;
@@ -18,12 +22,22 @@
 }
 
 .result {
-    border: none;
+    background: white;
     width: calc(100% - 8px);
-    height: 64px;
+    min-height: 52px;
     margin: 4px;
+    padding: 12px 0;
     font-size: 24px;
-    text-indent: 12px;
+    font-weight: 600;
+}
+
+.equation {
+    background: white;
+    width: calc(100% - 8px);
+    min-height: 52px;
+    margin: 4px;
+    padding: 12px 0;
+    font-size: 24px;
 }
 
 .calculator-buttons {
